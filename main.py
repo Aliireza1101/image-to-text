@@ -42,7 +42,7 @@ async def photo(client: Client, message: Message):
 
 @app.on_message(filters.private & filters.command("help"))
 async def help(client: Client, message:Message):
-    await message.reply_text("Developed by : [01101](https://github.com/Aliireza1101)\n\nRepository link :\n[click here]()")
+    await message.reply_text("Developed by : [01101](https://github.com/Aliireza1101)\n\nRepository link :\n[click here](https://github.com/Aliireza1101/image-to-text)")
 
 if __name__ == "__main__":
 
